@@ -19,7 +19,7 @@ void selectionSort(int list[], int length)
 
         for(miniIndex = index + 1; miniIndex < length ; ++miniIndex)
             if(list[miniIndex] < list[smallestIndex])
-            smallestIndex = miniIndex;
+                smallestIndex = miniIndex;
         
         swap(list[index], list[smallestIndex]);
     }
